@@ -5,20 +5,19 @@
 }
 
 body {
-    background-color: #0F172A;
+    background-color: var(--bg-color);
     color: var(--text-color-primary);
     font: var(--paragraph);
 }
 
-:rot {
+:root {
     /*Produto*/
 
     --brand-color-light: #60A5FA;
     --brand-color-dark: #1D4ED8;
 
     /*base*/
-
-    --bg-color: #0F172A;
+    --bg-color: #111a2e;
     --stroke-color: #1E293B;
     
     /*texts*/
@@ -35,4 +34,34 @@ body {
 
     --span: 600 14px/140%;
     --paragraph: 400 14px/140% var(--font-family);
+}
+
+/* utility primary*/
+h1, h2, h3 {
+    font: inherit
+
+}
+
+.container {
+    max-width: 1280px;
+    padding: 32px;
+    margin-inline: auto;
+}
+
+a {
+ text-decoration: none;
+ color: inherit;  
+}
+a:hover {
+    color: var(--brand-color-light);
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-flow-col {
+    grid-auto-flow: column;
+
+
 }
