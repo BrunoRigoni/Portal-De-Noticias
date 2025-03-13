@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0F172A;
+    color: var(--text-color-primary);
+    font: var(--paragraph);
+}
+
+:rot {
+    /*Produto*/
+
+    --brand-color-light: #60A5FA;
+    --brand-color-dark: #1D4ED8;
+
+    /*base*/
+
+    --bg-color: #0F172A;
+    --stroke-color: #1E293B;
+    
+    /*texts*/
+    --text-color-primary: #F1F5F9;
+    --text-color-secondary: #CBD5E1;
+
+    /*typography*/
+    --font-family: "Archivo", sans-serif;
+
+
+    --heading1: 800 24px/135% var(--font-family);
+    --heading2: 800 16px/140% var(--font-family);
+    --heading3: 800 14px/140% var(--font-family);
+
+    --span: 600 14px/140%;
+    --paragraph: 400 14px/140% var(--font-family);
+}
