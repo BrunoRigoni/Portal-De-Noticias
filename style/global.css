@@ -28,11 +28,11 @@ body {
     --font-family: "Archivo", sans-serif;
 
 
-    --heading1: 800 24px/135% var(--font-family);
-    --heading2: 800 16px/140% var(--font-family);
-    --heading3: 800 14px/140% var(--font-family);
+    --h1: 800 24px/135% var(--font-family);
+    --h2: 800 16px/140% var(--font-family);
+    --h3: 800 14px/140% var(--font-family);
 
-    --span: 600 14px/140%;
+    --text-sm: 600 14px/140%;
     --paragraph: 400 14px/140% var(--font-family);
 }
 
@@ -40,4 +40,15 @@ main {
     margin-top: 40px;
 }
 
+.content-tag {
+    display: inline-block;
+    background-color: var(--brand-color-dark);
+    padding: 4px 8px;
+    border-radius: 4px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-weight: 500 10px/1.2 var(--font-family) ;
+    color: var(--text-color-primary);
 
+    box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.212);
+}
