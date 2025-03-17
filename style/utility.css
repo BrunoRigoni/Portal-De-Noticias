@@ -41,6 +41,10 @@ a:hover {
     gap: 16px;
 }
 
+.gap-32 {
+    gap: 32px;
+}
+
 .text-2xl {
     font: var(--h1);
 }
@@ -56,3 +60,4 @@ a:hover {
 .text-sm {
     font: var(--text);
 }
+
