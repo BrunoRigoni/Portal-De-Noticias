@@ -32,12 +32,13 @@ body {
     --h2: 800 16px/140% var(--font-family);
     --h3: 800 14px/140% var(--font-family);
 
-    --text-sm: 600 14px/140%;
+    --text-span: 600 14px/140%;
     --paragraph: 400 14px/140% var(--font-family);
 }
 
 main {
     margin-top: 40px;
+    gap: 80px;
 }
 
 .content-tag {
